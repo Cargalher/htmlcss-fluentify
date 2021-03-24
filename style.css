@@ -172,3 +172,9 @@ h2, .title_columns{
     color:#7CBB02;
     
 }
+.text_column{
+    line-height: 40px;
+    font-size: 20px;
+    font-weight: 450;
+    margin-top: 40px;
+}
