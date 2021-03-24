@@ -16,16 +16,19 @@
 body{
     background-color: white;
 }
-body header{
+header{ 
     background-color: rgb(115, 190, 190);
     height:600px;
+     background-image: url(./img/background-header.png);
     
 }
-body main{
+main{
     background-color: rgb(187, 146, 117);
     height: 850px;
+   
+
 }
-body footer{
+footer{
 background-color: rgb(45, 44, 150);
 height: 200px;
 }
@@ -36,6 +39,7 @@ height: 200px;
 width:90%;
 margin: auto;
 }
+
 .logo, .main_menu, .secondary_menu{
     float: left;
 }
@@ -63,9 +67,11 @@ widht: 50%;
     list-style: none;
     text-transform: uppercase;
     padding: 10px 15px;
-    
+    text-align: right;  
 }
-
+header nav{
+    line-height: 80px;
+}
 
 
 
