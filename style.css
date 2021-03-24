@@ -26,13 +26,13 @@ header{
     position: relative;
 }
 main{
-    background-color: rgb(187, 146, 117);
+    background-color: pink;
     height: 850px;
    
 
 }
 footer{
-background-color:  #0C325A;
+background-color: lightgray;
 height: 200px;
 }
 /* /MAIN SETTINGS_3 MACROAREAS */
@@ -131,4 +131,22 @@ h1{
     bottom: 100px;
 }
 /* /MAIN TITLE */
-            /********************** HEADER********************* */
+            /********************** /HEADER********************* */
+
+              /********************** MAIN********************* */
+.first_section{
+   text-align: center;
+   height: 100px;
+   background-color: lightgray;
+   padding-top: 20px; 
+}
+h2{
+    font-size: 40px;
+    line-height: 60px;
+    font-weight:500;
+    tex
+}
+p{
+    font-size: 20px;
+    font-weight: 400;
+}
