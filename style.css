@@ -179,3 +179,11 @@ h2, .title_columns{
     font-weight: 450;
     margin-top: 40px;
 }
+
+.title_columns::after{
+    content:"";
+    display:block;
+    width:100px;
+    border-bottom: 2px solid black;
+    margin: 2em auto 0;
+    }
