@@ -26,7 +26,7 @@ header{
     position: relative;
 }
 main{
-    background-color: pink;
+    background-color: white;
     height: 850px;
    
 
@@ -136,17 +136,39 @@ h1{
               /********************** MAIN********************* */
 .first_section{
    text-align: center;
-   height: 100px;
+   /* height: 150px; */
    background-color: lightgray;
    padding-top: 20px; 
+   padding-bottom: 20px;
 }
-h2{
+h2, .title_firstsection{
     font-size: 40px;
     line-height: 60px;
     font-weight:500;
-    tex
+    
 }
 p{
     font-size: 20px;
     font-weight: 400;
+}
+.second_section{
+ 
+}
+.images{
+    width: auto;
+    height: 200px;
+   
+}
+.column_secondsection{
+    float: left;
+    width: 33.333%;
+    text-align: center;
+    padding-top: 40px;
+    
+}
+h2, .title_columns{
+    font-size: 30px;
+    line-height:40px;
+    color:#7CBB02;
+    
 }
