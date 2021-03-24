@@ -36,22 +36,34 @@ height: 200px;
 width:90%;
 margin: auto;
 }
+.logo, .main_menu, .secondary_menu{
+    float: left;
+}
+.logo{
+    width:10%;
+}
 .logo_img{
     width:10rem;
     margin-top: 20px;
+}
+.main_menu{
+    width:40%
 }
 .main_menu ul li{
 display: inline-block;
 list-style: none;
 text-decoration: none;
+text-transform: uppercase;
+padding: 10px 15px;
 }
 .secondary_menu{
-
+widht: 50%;
+}
+.secondary_menu ul li{
+    display: inline-block;
 }
 
-.logo, .main_menu, .secondary_menu{
-    float: left;
-}
+
 
 
 /* NAVIGATION BAR */
