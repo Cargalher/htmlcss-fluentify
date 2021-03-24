@@ -52,7 +52,6 @@ margin: auto;
 .main_menu ul li{
 display: inline-block;
 list-style: none;
-text-decoration: none;
 text-transform: uppercase;
 padding: 10px 15px;
 }
@@ -61,6 +60,10 @@ widht: 50%;
 }
 .secondary_menu ul li{
     display: inline-block;
+    list-style: none;
+    text-transform: uppercase;
+    padding: 10px 15px;
+    
 }
 
 
