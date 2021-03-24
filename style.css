@@ -14,13 +14,15 @@
 
 /* MAIN SETTINGS_3 MACROAREAS */
 body{
-    background-color: white;
+   
 }
 header{ 
-    background-color: rgb(115, 190, 190);
+    background-color: rgb(9, 9, 92);
     height:600px;
      background-image: url(./img/background-header.png);
-    
+     background-size: 1000px;
+    background-repeat: no-repeat;
+    background-position: 105% 105%;
 }
 main{
     background-color: rgb(187, 146, 117);
@@ -40,27 +42,32 @@ width:90%;
 margin: auto;
 }
 
-.logo, .main_menu, .secondary_menu{
+.logo, .main_menu{
     float: left;
 }
 .logo{
-    width:10%;
+    
 }
 .logo_img{
     width:10rem;
     margin-top: 20px;
 }
 .main_menu{
-    width:40%
+    margin-left: 50px;
 }
 .main_menu ul li{
 display: inline-block;
 list-style: none;
 text-transform: uppercase;
 padding: 10px 15px;
+
+}
+.main_menu ul li, .secondary_menu ul li{
+    font-size: 20px;
+   
 }
 .secondary_menu{
-widht: 50%;
+float:right;
 }
 .secondary_menu ul li{
     display: inline-block;
@@ -68,11 +75,16 @@ widht: 50%;
     text-transform: uppercase;
     padding: 10px 15px;
     text-align: right;  
+   
 }
 header nav{
     line-height: 80px;
+    
 }
-
+.button_one{
+    padding: 5px 20px;
+    
+}
 
 
 /* NAVIGATION BAR */
