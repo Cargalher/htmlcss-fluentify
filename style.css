@@ -1,8 +1,57 @@
+/* RULES*/
 *{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
-body{
-    background-color: rgb(233, 125, 218);
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
 }
+/* RULES */
+
+
+/* MAIN SETTINGS_3 MACROAREAS */
+body{
+    background-color: white;
+}
+body header{
+    background-color: rgb(115, 190, 190);
+    height:600px;
+    
+}
+body main{
+    background-color: rgb(187, 146, 117);
+    height: 850px;
+}
+body footer{
+background-color: rgb(45, 44, 150);
+height: 200px;
+}
+/* MAIN SETTINGS_3 MACROAREAS */
+
+/* NAVIGATION BAR */
+.container{
+width:90%;
+margin: auto;
+}
+.logo_img{
+    width:10rem;
+    margin-top: 20px;
+}
+.main_menu ul li{
+display: inline-block;
+list-style: none;
+text-decoration: none;
+}
+.secondary_menu{
+
+}
+
+.logo, .main_menu, .secondary_menu{
+    float: left;
+}
+
+
+/* NAVIGATION BAR */
