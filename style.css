@@ -28,8 +28,6 @@ header{
 main{
     background-color: white;
     height: 1550px;
-   
-
 }
 footer{
 background-color: lightgray;
@@ -47,9 +45,6 @@ margin: auto;
 .logo, .main_menu{
     float: left;
 }
-.logo{
-    
-}
 .logo_img{
     width:10rem;
     margin-top: 20px;
@@ -59,20 +54,16 @@ header nav{
     font-size: 20px;
 }
 .main_menu{
-    margin-left: 50px;
-   
-    
+    margin-left: 50px; 
 }
 .main_menu ul li{
 display: inline-block;
 list-style: none;
 text-transform: uppercase;
 padding: 10px 15px;
-
 }
 .main_menu ul li, .secondary_menu ul li{
-    font-size: 20px;
-   
+    font-size: 20px;  
 }
 .main_menu ul li a,.secondary_menu ul li a{
     font-size: 20px;
@@ -91,7 +82,6 @@ float:right;
 }
 .button_one{
     padding: 10px 35px;
-    
     background-color: #0c325a;
     color: white;
     border: 1px solid white;
@@ -114,7 +104,6 @@ float:right;
 /* MAIN TITLE */
 h1{
     color: white;
-    
 }
 .button_three{
     padding: 30px 30px;
@@ -124,9 +113,8 @@ h1{
     color: white;
     border:1px solid #7CBB02;
     display: inline-block;
-    
     text-transform: uppercase;
-  margin-top: 20px;
+    margin-top: 20px;
     cursor: pointer;
 }
 .main_title{
@@ -151,8 +139,7 @@ h3, .title_firstsection{
     font-size: 40px;
     line-height: 60px;
     font-weight:500;
-    color: black;
-    
+    color: black; 
 }
 p{
     font-size: 20px;
@@ -164,20 +151,17 @@ p{
 .images{
     width: auto;
     height: 200px;
-   
 }
 .column_secondsection{
     float: left;
     width: 33.333%;
     text-align: center;
     padding-top: 40px;
-    
 }
 h3, .title_columns{
     font-size: 30px;
     line-height:40px;
     color:#7CBB02;
-    
 }
 .text_column{
     line-height: 35px;
@@ -185,14 +169,17 @@ h3, .title_columns{
     font-weight: 450;
     margin-top: 40px;
 }
-
 .title_columns::after{
     content:"";
     display:block;
     width:100px;
     border-bottom: 2px solid black;
     margin: 2em auto 0;
-    }
+}
+.title_columns:hover{
+        color: blue;
+}
+    
 /* THIRD SECTION */
 .mountain_img{
     width:auto;
@@ -203,7 +190,6 @@ h3, .title_columns{
     width: 49.999%;
     text-align: center;
     padding-top: 40px;
-    
 }
 .h2, .title_mountains{
    line-height:55px;
@@ -221,11 +207,14 @@ h3, .title_columns{
     font-weight: 500;
 }
 .placement_link{
-    color:  blue;
+    color:  rgb(15, 82, 184);
     font-size: 20px;
     font-weight:bold;
     margin-top: 20px;
     float: left;
+}
+.placement_link:hover{
+    color: red;
 }
 /* /THIRD SECTION */   
             /********************** /MAIN********************* */
@@ -242,9 +231,7 @@ float: left;
    font-weight: 600;
    padding: 70px;
    text-align:start;
-   
 }
-
 .button_footer{
     padding: 30px 10px;
     border-radius: 5px;
@@ -271,7 +258,5 @@ float: left;
     right: 200px;
     top:150px;
     text-align: justify;
-
-}
 }
 
