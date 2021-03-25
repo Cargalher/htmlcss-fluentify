@@ -231,4 +231,47 @@ h3, .title_columns{
             /********************** /MAIN********************* */
 
             /********************** FOOTER********************* */
+.footer{
+    position: relative;
+}
+.footer_content{
+float: left;
+}
+.title_footer{
+   font-size: 50px;
+   font-weight: 600;
+   padding: 70px;
+   text-align:start;
+   
+}
+
+.button_footer{
+    padding: 30px 10px;
+    border-radius: 5px;
+    background-color: #7CBB02;
+    color: white;
+    border:1px solid #7CBB02;
+    cursor: pointer;
+    font-size: 20px;
+    text-transform: uppercase;
+    position: absolute;
+    right: 100px;
+    top:40px;
+}
+.button_footer_help{
+    padding: 10px 10px;
+    border-radius: 5px;
+    background-color: #7CBB02;
+    color: white;
+    border:1px solid #7CBB02;
+    cursor: pointer;
+    font-size: 20px;
+    text-transform: uppercase;
+    position: absolute;
+    right: 200px;
+    top:150px;
+    text-align: justify;
+
+}
+}
 
